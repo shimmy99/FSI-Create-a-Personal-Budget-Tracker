@@ -9,4 +9,9 @@ let stringAnswer = window.prompt(weeklyExpenseQuestions[0])
 let numberAnswer = parseFloat(stringAnswer)
 console.log(numberAnswer)
 
+let answer = parseFloat(window.prompt(weeklyExpenseQuestions[0]))
+weeklyExpenses = weeklyExpenses + answer
+
+
+
 // Your Code Here
